@@ -1,0 +1,30 @@
+.mytodo{
+    background-color: #f1f1f1;
+    padding: 0.5em;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p{
+    width: 100%;
+    font-size: 0.8em;
+    color: #1F1D36;
+}
+.p1{
+    width: 100%;
+    font-size: 0.8em;
+    color: grey;
+    text-decoration: line-through;
+
+}
+.mytodo button{
+    border:none;
+    cursor: pointer;
+}
+.mytodo input{
+    height: 20%;
+    width: 20%;
+}

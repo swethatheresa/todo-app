@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+.todo{
+    background-color: #1F1D36;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow:auto;
+ }  
+ 
+.todo1{
+    width: 25%;
+    padding: 2em;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.todo1 h1{
+    font-size: 2em;
+    font-weight: 80 0;
+    color: #1F1D36;
+    margin-bottom: 1em;
+}
+
+.todo1 input{
+    border-radius: 7px;
+    border: 2px solid #1F1D36;
+    padding: 0.5em;
+    align-items: center;
+    width: 80%;
+}
+.input1{
+    display: flex;
+    justify-content: space-between;
+}
+.input1 button{
+    background-color: #1F1D36;
+    color: white;
+    border-radius: 7px;
+    padding: 0.5em;
+    cursor: pointer;
+
+    border-color: #1F1D36;
+    border-style: solid;
+
+}
+
+.input1 button:hover{
+    background-color: #5f5b85;
+    color: white;
+    border-radius: 7px;
+    padding: 0.5em;
+    cursor: pointer;
+    
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+.line{
+    padding-top: 2em;
+    font-size: 0.6em;
+    color: #1F1D36;
+    text-align: center;
+}
